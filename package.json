@@ -1,0 +1,29 @@
+{
+  "name": "vue-compiler-amd",
+  "version": "1.0.0",
+  "description": "Compiler for vue that can compile .vue to amd module.(not stable)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RequireSun/vue-compiler-amd.git"
+  },
+  "keywords": [
+    "vue",
+    "amd",
+    "compiler"
+  ],
+  "author": "RequireSun <kelvinsen@outlook.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/RequireSun/vue-compiler-amd/issues"
+  },
+  "homepage": "https://github.com/RequireSun/vue-compiler-amd#readme",
+  "dependencies": {
+    "babel-core": "^6.24.1",
+    "vue-loader": "^12.1.0",
+    "vue-template-compiler": "^2.3.3"
+  }
+}
