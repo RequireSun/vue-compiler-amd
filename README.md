@@ -1,10 +1,9 @@
 
-# 注意
+# Vue compiler AMD
 
-1. 不要用 es6 的 `import` / `export` 这俩都被我干掉了
-1. 暂时不打算支持模板中的有作用域的 `style` 标签
+A compiler which can compiler `.vue` file to an AMD style `.js` file.
 
-# TODO
+# Warning
 
-1. man
-1. cli
+1. Don't use the keywords `import` / `export` of ES6
+1. Don't use the `style` tag in `.vue` file, because I didn't write it
