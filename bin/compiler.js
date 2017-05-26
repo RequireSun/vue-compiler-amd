@@ -15,6 +15,9 @@ const args = yargs
     .option('preserveWhitespace', {
         describe: 'if this option was passed, parsed html content will preserve the white spaces',
     })
+    .version(function () {
+        return require('../package.json').version
+    })
     .help();
 const argv = args.argv;
 
