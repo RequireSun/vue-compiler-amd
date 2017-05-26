@@ -1,6 +1,6 @@
 {
   "name": "vue-compiler-amd",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Compiler for vue that can compile .vue to amd module.(not stable)",
   "main": "index.js",
   "bin": "bin/compiler.js",
